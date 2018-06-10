@@ -18,6 +18,7 @@ def split_time(time_str):
         none
     '''
 
+
     hour = time_str.split(":")[0]
     minute = time_str.split(":")[1]
     time_list = [hour, minute]
